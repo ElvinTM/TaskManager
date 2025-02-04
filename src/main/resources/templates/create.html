@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create manager</title>
+</head>
+<body>
+<h1>Create manager</h1>
+<form th:object="${task}" th:action="${'/task/create'}" method="post">
+    <label>Title:</label>
+    <input type="text" th:field="*{title}">
+    <br>
+    <label>Description:</label>
+    <input type="text" th:field="*{description}">
+    <br>
+    <label>Priority:</label>
+    <input type="text" th:field="*{priority}">
+    <br>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>
