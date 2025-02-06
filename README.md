@@ -9,7 +9,7 @@ ___
 ### Запуск приложения
 Для запуска нужно скачать репозиторий с помощью команды
 ```
-$ git clone {https://github.com/ElvinTM/my-project.git}
+$ git clone {https://github.com/ElvinTM/TaskManager.git}
 ```
 Либо скачать тут файл [ZIP](https://github.com/ElvinTM/TaskManager/archive/refs/heads/main.zip)
 
